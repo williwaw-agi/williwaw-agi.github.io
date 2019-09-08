@@ -491,6 +491,17 @@ mark,
   height: auto;
 }
 
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #cd9557;
+  opacity: 0.7;
+  z-index: 1;
+}
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
