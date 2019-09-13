@@ -497,7 +497,6 @@ mark,
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: #cd9557;
   opacity: 0.7;
   z-index: 1;
 }
@@ -4400,7 +4399,8 @@ input[type="button"].btn-block {
 
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
-  color: #fff;
+  /*color: #fff;*/
+  color: #212529;
   background-color: #f4623a;
 }
 
@@ -4779,34 +4779,41 @@ input[type="button"].btn-block {
 }
 
 .navbar-light .navbar-brand {
-  color: rgba(0, 0, 0, 0.9);
+  /*color: rgba(0, 0, 0, 0.9);*/
+  color: #212529;
 }
 
 .navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
-  color: rgba(0, 0, 0, 0.9);
+  /*color: rgba(0, 0, 0, 0.9);*/
+  color: #212529;
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: rgba(0, 0, 0, 0.5);
+  /*color: rgba(0, 0, 0, 0.5);*/
+  color: #212529;
 }
 
 .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
-  color: rgba(0, 0, 0, 0.7);
+  /*color: rgba(0, 0, 0, 0.7);*/
+  color: #212529;
 }
 
 .navbar-light .navbar-nav .nav-link.disabled {
-  color: rgba(0, 0, 0, 0.3);
+  /*color: rgba(0, 0, 0, 0.3);*/
+  color: #212529;
 }
 
 .navbar-light .navbar-nav .show > .nav-link,
 .navbar-light .navbar-nav .active > .nav-link,
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .nav-link.active {
-  color: rgba(0, 0, 0, 0.9);
+  /*color: rgba(0, 0, 0, 0.9);*/
+  color: #212529;
 }
 
 .navbar-light .navbar-toggler {
-  color: rgba(0, 0, 0, 0.5);
+  /*color: rgba(0, 0, 0, 0.5);*/
+  color: #212529;
   border-color: rgba(0, 0, 0, 0.1);
 }
 
@@ -4815,46 +4822,56 @@ input[type="button"].btn-block {
 }
 
 .navbar-light .navbar-text {
-  color: rgba(0, 0, 0, 0.5);
+  /*color: rgba(0, 0, 0, 0.5);*/
+  color: #212529;
 }
 
 .navbar-light .navbar-text a {
-  color: rgba(0, 0, 0, 0.9);
+  /*color: rgba(0, 0, 0, 0.9);*/
+  color: #212529;
 }
 
 .navbar-light .navbar-text a:hover, .navbar-light .navbar-text a:focus {
-  color: rgba(0, 0, 0, 0.9);
+  /*color: rgba(0, 0, 0, 0.9);*/
+  color: #212529;
 }
 
 .navbar-dark .navbar-brand {
-  color: #fff;
+  /*color: #fff;*/
+  color: #212529;
 }
 
 .navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
-  color: #fff;
+  /*color: #fff;*/
+  color: #212529;
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: rgba(255, 255, 255, 0.5);
+  /*color: rgba(255, 255, 255, 0.5);*/
+  color: #212529;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
-  color: rgba(255, 255, 255, 0.75);
+  /*color: rgba(255, 255, 255, 0.75);*/
+  color: #212529;
 }
 
 .navbar-dark .navbar-nav .nav-link.disabled {
-  color: rgba(255, 255, 255, 0.25);
+  /*color: rgba(255, 255, 255, 0.25);*/
+  color: #212529;
 }
 
 .navbar-dark .navbar-nav .show > .nav-link,
 .navbar-dark .navbar-nav .active > .nav-link,
 .navbar-dark .navbar-nav .nav-link.show,
 .navbar-dark .navbar-nav .nav-link.active {
-  color: #fff;
+  /*color: #fff;*/
+  color: #212529;
 }
 
 .navbar-dark .navbar-toggler {
-  color: rgba(255, 255, 255, 0.5);
+  /*color: rgba(255, 255, 255, 0.5);*/
+  color: #212529;
   border-color: rgba(255, 255, 255, 0.1);
 }
 
@@ -4863,15 +4880,18 @@ input[type="button"].btn-block {
 }
 
 .navbar-dark .navbar-text {
-  color: rgba(255, 255, 255, 0.5);
+  /*color: rgba(255, 255, 255, 0.5);*/
+  color: #212529;
 }
 
 .navbar-dark .navbar-text a {
-  color: #fff;
+  /*color: #fff;*/
+  color: #212529;
 }
 
 .navbar-dark .navbar-text a:hover, .navbar-dark .navbar-text a:focus {
-  color: #fff;
+  /*color: #fff;*/
+  color: #212529;
 }
 
 .card {
@@ -10643,14 +10663,14 @@ hr.light {
   #mainNav {
     -webkit-box-shadow: none;
     box-shadow: none;
-    background-color: transparent;
+    background-color: rgb(255, 255, 255);
   }
   #mainNav .navbar-brand {
     /*color: rgba(255, 255, 255, 0.7);*/
     color: #212529;
   }
   #mainNav .navbar-brand:hover {
-    color: #fff;
+    color: #f4623a;
   }
   #mainNav .navbar-nav .nav-item .nav-link {
     /*color: rgba(255, 255, 255, 0.7);*/
@@ -10658,7 +10678,7 @@ hr.light {
     padding: 0 1rem;
   }
   #mainNav .navbar-nav .nav-item .nav-link:hover {
-    color: #fff;
+    color: #f4623a;
   }
   #mainNav .navbar-nav .nav-item:last-child .nav-link {
     padding-right: 0;
