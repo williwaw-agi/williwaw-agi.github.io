@@ -10646,7 +10646,8 @@ hr.light {
     background-color: transparent;
   }
   #mainNav .navbar-brand {
-    color: rgba(255, 255, 255, 0.7);
+    /*color: rgba(255, 255, 255, 0.7);*/
+    color: #212529;
   }
   #mainNav .navbar-brand:hover {
     color: #fff;
