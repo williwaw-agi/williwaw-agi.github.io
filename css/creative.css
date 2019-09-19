@@ -1,15 +1,15 @@
 /*!
- * Start Bootstrap - Creative v5.1.7 (https://startbootstrap.com/template-overviews/creative)
- * Copyright 2013-2019 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-creative/blob/master/LICENSE)
- */
+* Start Bootstrap - Creative v5.1.7 (https://startbootstrap.com/template-overviews/creative)
+* Copyright 2013-2019 Start Bootstrap
+* Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-creative/blob/master/LICENSE)
+*/
 
 /*!
- * Bootstrap v4.3.1 (https://getbootstrap.com/)
- * Copyright 2011-2019 The Bootstrap Authors
- * Copyright 2011-2019 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
+* Bootstrap v4.3.1 (https://getbootstrap.com/)
+* Copyright 2011-2019 The Bootstrap Authors
+* Copyright 2011-2019 Twitter, Inc.
+* Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+*/
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -10790,7 +10790,12 @@ header.masthead h1 {
   opacity: 1;
 }
 
-
+video {
+  width: 100%;
+  height: auto;
+  max-width: 150%;
+  max-height: 130%;
+}
 
 .page-section h3.section-subheading {
   font-size: 16px;
