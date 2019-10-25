@@ -69,12 +69,12 @@
       <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
         <source src="img/loop_boat2.mp4" type="video/mp4">
         </video>
-    </div>
+      </div>
 
-    <!-- Masthead/Project section -->
-    <header class="masthead" id="project">
-      <div class="container h-100">
-        <div class="row h-100 align-items-center justify-content-center text-center">
+      <!-- Masthead/Project section -->
+      <header class="masthead" id="project">
+        <div class="container h-100">
+          <div class="row h-100 align-items-center justify-content-center text-center">
             <div class="col-lg-10 align-self-end">
               <h1 class="text-uppercase text-white font-weight-bold">Williwaw*</h1>
               <hr class="divider my-4">
@@ -84,9 +84,10 @@
 
               <p class="text-white-75 font-weight-light mb-5">
                 Williwaw will you take you on a virtual adventure, on a sailing boat across the sea. Get on board and control
-                the elements in order to sail where you have never sailed before. Williwaw allows a number of adventurers
-                to control the virtual environment simultaneously, using multiple mobile phone devices. Blow into your phone to
-                create the wind in the sails, shake your phone to energize the waves and tilt your phone to steer the ship's wheel.
+                the elements in order to sail where you have never sailed before.  Blow into your phone to
+                create the wind in the sails and tilt your phone to steer the ship's wheel. Williwaw allows a number of adventurers
+                to sail the virtual sea simultaneously, using multiple mobile phone devices. Beware of the other adventurers on the seas!
+                Canon balls will soon start flying.
               </p>
 
               <p class="text-white-75 font-weight-light mb-5"> *insert video here. <br>
@@ -110,198 +111,243 @@
           <h2 class="text-center mt-0">The Making Of</h2>
           <hr class="divider my-4">
 
-          <div class="text-muted mb-0 text-center"> Blabla, text, explanation, bla. <br>
-          </div>
 
-          <div class="row">
+
+          <div class="row justify-content-center">
             <div class="col-lg-3 col-md-6 text-center">
               <div class="mt-5">
-                <!-- <i class="fas fa-4x fa-gem text-primary mb-4"></i> -->
-                <img src="img/logo_blender.png" alt="" height="80" width="80">
-                <h3 class="h4 mb-2">Blender</h3>
-                <p class="text-muted mb-0">3D modeling of virtual objects was accomplished
-                  using Blender.</p>
-                </div>
+                <!-- <i class="fas fa-4x fa-laptop-code text-primary mb-4"></i> -->
+                <img src="img/logo_unity.png" alt="" height="80" width="80">
+                <h3 class="h4 mb-2">Unity</h3>
+                <p class="text-muted mb-0">The virtual game environment was created using Unity.</p>
               </div>
-              <div class="col-lg-3 col-md-6 text-center">
-                <div class="mt-5">
-                  <!-- <i class="fas fa-4x fa-laptop-code text-primary mb-4"></i> -->
-                  <img src="img/logo_unity.png" alt="" height="80" width="80">
-                  <h3 class="h4 mb-2">Unity</h3>
-                  <p class="text-muted mb-0">The virtual game environment was created using Unity.</p>
-                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 text-center">
+              <div class="mt-5">
+                <!--<i class="fas fa-4x fa-heart text-primary mb-4"></i> -->
+                <img src="img/logo_android.png" alt="" height="80" width="80">
+                <h3 class="h4 mb-2">Android</h3>
+                <p class="text-muted mb-0">The current application was designed to run on Android.</p>
               </div>
-              <div class="col-lg-3 col-md-6 text-center">
-                <div class="mt-5">
-                  <!-- <i class="fas fa-4x fa-globe text-primary mb-4"></i> -->
-                  <img src="img/logo_git.png" alt="" height="80" width="80">
-                  <h3 class="h4 mb-2">GitHub</h3>
-                  <p class="text-muted mb-0">Code hosting and version control was accomplished using GitHub.</p>
-                </div>
-              </div>
-              <div class="col-lg-3 col-md-6 text-center">
-                <div class="mt-5">
-                  <i class="fas fa-4x fa-heart text-primary mb-4"></i>
-                  <h3 class="h4 mb-2">(...)</h3>
-                  <p class="text-muted mb-0">(...)</p>
-                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 text-center">
+              <div class="mt-5">
+                <!-- <i class="fas fa-4x fa-globe text-primary mb-4"></i> -->
+                <img src="img/logo_git.png" alt="" height="80" width="80">
+                <h3 class="h4 mb-2">GitHub</h3>
+                <p class="text-muted mb-0">Code hosting and version control was accomplished using GitHub.</p>
               </div>
             </div>
           </div>
-        </section>
+        </div>
 
-        <!-- Team -->
-        <section class="bg-light page-section" id="theteam">
+      </section>
+    </div>
 
-          <div class="container">
+    <!-- new stuff -->
 
-            <div class="row">
-              <div class="col-lg-12 text-center">
-                <h2 class="text-center mt-0">The Team</h2>
-                <hr class="divider my-4">
-                <p class="text-muted mb-0">The students behind this project.</p>
+    <section class="showcase">
+      <div class="container-fluid p-0">
+        <div class="row no-gutters">
+          <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/Environment.jpg');"></div>
+          <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+            <h3 class="h4 mb-2">Virtual Environment</h3>
+            <p class="text-muted mb-0"><br>The Packet Manager was used to import Terrain Tools. The Unity Asset Store was used
+              to download and import ready-made Assets such as trees. A Terrain object was created using Terrain Toolbox. Then,
+              Unity’s built-in Terrain Tools was used to shape the terrain using a variety of brushes to raise/lower terrain,
+              smooth height, paint terrain, paint trees and paint details (such as grass and mushrooms). Assets
+              were imported to create a custom skybox and to place clouds in the sky, and a custom script was then created to have the
+              clouds move across the sky in-game. Lastly, an audio clip was imported and attached to the boat camera as an audio source,
+              in order to simulate ambient sounds.</p>
+            </div>
+          </div>
+          <div class="row no-gutters">
+            <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/Environment.jpg');"></div>
+            <div class="col-lg-6 my-auto showcase-text">
+              <h3 class="h4 mb-2">Interaction</h3>
+              <p class="text-muted mb-0"><br>There exist several forms of interaction in this application.
+                Using the input of the phone’s accelerometer, the direction of the ship can be controlled. It allows players
+                to tilt the phone in order to steer the boat left and right. The accelerometer has some smoothing applied to it,
+                using Unity’s Lerp function, in order to reduce jitter. The microphone’s sound input is used to create wind in
+                the game. A low pass filter is applied to reduce unwanted frequencies affecting the input. The phone’s light sensor
+                is used for the spawning of clouds. The sensor measures the current lux of the ambient lighting in the room. By
+                covering up the sensor, and thus lowering the light-level, the player is able to spawn clouds above their ship. The
+                clouds follow the wind direction and can be used to hide the boat on the map. A  wind effect was created using Unity’s
+                particle system that responds to a wind zone.</p>
               </div>
             </div>
-
-            <div class="row justify-content-center">
-              <div class="col-sm-4 text-center">
-                <div class="team-member">
-                  <img class="mx-auto rounded-circle" src="img/team_1.jpg" alt="" height="200" width="200">
-                  <h3 class="h4 mb-2"><br>Axel Ekwall</h3>
-                  <p class="text-muted mb-0">Backend Design<br></p><br>
+            <div class="row no-gutters">
+              <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/Environment.jpg');"></div>
+              <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+                <h3 class="h4 mb-2">Networking</h3>
+                <p class="text-muted mb-0"><br>Networking was vital to enable multi device support in the current game. One
+                  challenge was that the users were to each have an asymmetrical view of the world. The goal was to enable
+                  both a first-person camera view through each player’s client device and at the same time allow the server device to
+                  project an overview on a large screen. All camera views had to be in sync at all times. In order to accomplish this,
+                  Unet HLAPI was used to set-up a custom networking system. It allows for easy synchronisation of game object states
+                  between devices.</p>
                 </div>
-                <a href="https://www.linkedin.com/in/axelekwall/" target="_blank"><img class="mx-auto rounded-circle" src="img/logo_linkedin.png" alt="" height="40" width="40"></a>
-                <a href="https://github.com/axelekwall" target="_blank"><img class="mx-auto rounded-circle" src="img/logo_git.png" alt="" height="40" width="40"></a>
+              </div>
+            </div>
+          </section>
+
+          <!-- new stuff -->
+
+
+          <!-- Team -->
+          <section class="bg-light page-section" id="theteam">
+
+            <div class="container">
+
+              <div class="row">
+                <div class="col-lg-12 text-center">
+                  <h2 class="text-center mt-0">The Team</h2>
+                  <hr class="divider my-4">
+                  <p class="text-muted mb-0">The students behind this project.</p>
+                </div>
               </div>
 
-              <div class="col-sm-4 text-center">
-                <div class="team-member">
-                  <img class="mx-auto rounded-circle" src="img/team_2.jpg" alt="" height="200" width="200">
-                  <h3 class="h4 mb-2"><br>Alexander Heikinaho</h3>
-                  <p class="text-muted mb-0">Graphic Design</p><br>
-                    </div>
+              <div class="row justify-content-center">
+                <div class="col-sm-4 text-center">
+                  <div class="team-member">
+                    <img class="mx-auto rounded-circle" src="img/team_1.jpg" alt="" height="200" width="200">
+                    <h3 class="h4 mb-2"><br>Axel Ekwall</h3>
+                    <p class="text-muted mb-0">Backend Design<br></p><br>
+                  </div>
+                  <a href="https://www.linkedin.com/in/axelekwall/" target="_blank"><img class="mx-auto rounded-circle" src="img/logo_linkedin.png" alt="" height="40" width="40"></a>
+                  <a href="https://github.com/axelekwall" target="_blank"><img class="mx-auto rounded-circle" src="img/logo_git.png" alt="" height="40" width="40"></a>
+                </div>
+
+                <div class="col-sm-4 text-center">
+                  <div class="team-member">
+                    <img class="mx-auto rounded-circle" src="img/team_2.jpg" alt="" height="200" width="200">
+                    <h3 class="h4 mb-2"><br>Alexander Heikinaho</h3>
+                    <p class="text-muted mb-0">Graphic Design</p><br>
+                  </div>
                   <a href="https://www.linkedin.com/in/alexander-heikinaho-92540549/" target="_blank"><img class="mx-auto rounded-circle" src="img/logo_linkedin.png" alt="" height="40" width="40"></a>
                   <a href="https://github.com/LxMat" target="_blank"><img class="mx-auto rounded-circle" src="img/logo_git.png" alt="" height="40" width="40"></a>
-            </div>
-          </div>
-
-            <div class="row justify-content-center">
-              <div class="col-sm-4 text-center">
-                <div class="team-member">
-                  <img class="mx-auto rounded-circle" src="img/team_3.jpg" alt="" height="200" width="200">
-                  <h3 class="h4 mb-2"><br>Magnus Lundh Haaland</h3>
-                  <p class="text-muted mb-0">Interaction Design</p><br>
                 </div>
-                <a href="https://www.linkedin.com/in/magnus-lundh-haaland-b6b075150/" target="_blank"><img class="mx-auto rounded-circle" src="img/logo_linkedin.png" alt="" height="40" width="40" href=""></a>
-                <a href="https://github.com/magnuslh" target="_blank"><img class="mx-auto rounded-circle" src="img/logo_git.png" alt="" height="40" width="40" href=""></a>
               </div>
 
-              <div class="col-sm-4 text-center">
-                <div class="team-member">
-                  <img class="mx-auto rounded-circle" src="img/team_4.jpg" alt="" height="200" width="200">
-                  <h3 class="h4 mb-2 img-fluid"><br>Chantal Hundscheid</h3>
-                  <p class="text-muted mb-0">Environment Design</p><br>
+              <div class="row justify-content-center">
+                <div class="col-sm-4 text-center">
+                  <div class="team-member">
+                    <img class="mx-auto rounded-circle" src="img/team_3.jpg" alt="" height="200" width="200">
+                    <h3 class="h4 mb-2"><br>Magnus Lundh Haaland</h3>
+                    <p class="text-muted mb-0">Interaction Design</p><br>
+                  </div>
+                  <a href="https://www.linkedin.com/in/magnus-lundh-haaland-b6b075150/" target="_blank"><img class="mx-auto rounded-circle" src="img/logo_linkedin.png" alt="" height="40" width="40" href=""></a>
+                  <a href="https://github.com/magnuslh" target="_blank"><img class="mx-auto rounded-circle" src="img/logo_git.png" alt="" height="40" width="40" href=""></a>
                 </div>
-                <a href="https://www.linkedin.com/in/chantal-hundscheid/" target="_blank"><img class="mx-auto rounded-circle" src="img/logo_linkedin.png" alt="" height="40" width="40" href=""></a>
-                <a href="https://github.com/1286315" target="_blank"><img class="mx-auto rounded-circle" src="img/logo_git.png" alt="" height="40" width="40" href=""></a>
+
+                <div class="col-sm-4 text-center">
+                  <div class="team-member">
+                    <img class="mx-auto rounded-circle" src="img/team_4.jpg" alt="" height="200" width="200">
+                    <h3 class="h4 mb-2 img-fluid"><br>Chantal Hundscheid</h3>
+                    <p class="text-muted mb-0">Environment Design</p><br>
+                  </div>
+                  <a href="https://www.linkedin.com/in/chantal-hundscheid/" target="_blank"><img class="mx-auto rounded-circle" src="img/logo_linkedin.png" alt="" height="40" width="40" href=""></a>
+                  <a href="https://github.com/1286315" target="_blank"><img class="mx-auto rounded-circle" src="img/logo_git.png" alt="" height="40" width="40" href=""></a>
+                </div>
               </div>
             </div>
-          </div>
-        </section>
+          </section>
 
 
 
-        <!-- Gallery Section -->
-        <section class="page-section" id="gallery">
-          <div class="container">
+          <!-- Gallery Section -->
+          <section class="page-section" id="gallery">
+            <div class="container">
 
-            <h2 class="text-center mt-0">Gallery</h2>
-            <hr class="divider my-4">
+              <h2 class="text-center mt-0">Gallery</h2>
+              <hr class="divider my-4">
 
-            <div class="row no-gutters">
+              <div class="row no-gutters">
 
-              <div class="col-lg-4 col-sm-6">
-                <a class="portfolio-box" href="img/P5.png" height="350" width="650">
-                  <img class="img-fluid" src="img/P5.png" alt="" height="250" width="550">
-                </a>
-              </div>
+                <div class="col-lg-4 col-sm-6">
+                  <a class="portfolio-box" href="img/P5.png" height="350" width="650">
+                    <img class="img-fluid" src="img/P5_2.png" alt="" height="250" width="550">
+                  </a>
+                </div>
 
-              <div class="col-lg-4 col-sm-6">
-                <a class="portfolio-box" href="img/P1.jpg" height="350" width="650">
-                  <img class="img-fluid" src="img/P1.jpg" alt="" height="250" width="550">
-                </a>
-              </div>
+                <div class="col-lg-4 col-sm-6">
+                  <a class="portfolio-box" href="img/P1.jpg" height="350" width="650">
+                    <img class="img-fluid" src="img/P1_2.jpg" alt="" height="250" width="550">
+                  </a>
+                </div>
 
-              <div class="col-lg-4 col-sm-6">
-                <a class="portfolio-box" href="img/P2.jpg" height="350" width="650">
-                  <img class="img-fluid" src="img/P2.jpg" alt="" height="250" width="550">
-                </a>
-              </div>
+                <div class="col-lg-4 col-sm-6">
+                  <a class="portfolio-box" href="img/P2.jpg" height="350" width="650">
+                    <img class="img-fluid" src="img/P2_2.jpg" alt="" height="250" width="550">
+                  </a>
+                </div>
 
-              <div class="col-lg-4 col-sm-6">
-                <a class="portfolio-box" href="img/P3.jpg">
-                  <img class="img-fluid" src="img/P3.jpg" alt="">
-                </a>
-              </div>
+                <div class="col-lg-4 col-sm-6">
+                  <a class="portfolio-box" href="img/P3.jpg">
+                    <img class="img-fluid" src="img/P3_2.jpg" alt="">
+                  </a>
+                </div>
 
-              <div class="col-lg-4 col-sm-6">
-                <a class="portfolio-box" href="img/P4.jpg">
-                  <img class="img-fluid" src="img/P4.jpg" alt="">
-                </a>
-              </div>
+                <div class="col-lg-4 col-sm-6">
+                  <a class="portfolio-box" href="img/P4.jpg">
+                    <img class="img-fluid" src="img/P4_2.jpg" alt="">
+                  </a>
+                </div>
 
-              <div class="col-lg-4 col-sm-6">
-                <a class="portfolio-box" href="">
-                  <img class="img-fluid" src="" alt="">
-                </a>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <!-- Contact Section -->
-        <section class="page-section" id="contact">
-          <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-lg-8 text-center">
-                <h2 class="mt-0">Let's Get In Touch!</h2>
-                <hr class="divider my-4">
-                <p class="text-muted mb-5">Any more questions about the project? Contact us at</p>
+                <div class="col-lg-4 col-sm-6">
+                  <a class="portfolio-box" href="img/P6.jpg">
+                    <img class="img-fluid" src="img/P6_2.jpg" alt="">
+                  </a>
+                </div>
               </div>
             </div>
-            <!--    <div class="row">
-            <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
-            <i class="fas fa-phone fa-3x mb-3 text-muted"></i>
-            <div>+1 (202) 555-0149</div>
+          </section>
+
+          <!-- Contact Section -->
+          <section class="page-section" id="contact">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                  <h2 class="mt-0">Let's Get In Touch!</h2>
+                  <hr class="divider my-4">
+                  <p class="text-muted mb-5">Any more questions about the project? Contact us at</p>
+                </div>
+              </div>
+              <!--    <div class="row">
+              <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
+              <i class="fas fa-phone fa-3x mb-3 text-muted"></i>
+              <div>+1 (202) 555-0149</div>
+            </div>
+          -->
+          <!-- <div class="col-lg-4 mr-auto text-center"> -->
+          <div align="center">
+            <i class="fas fa-envelope fa-3x mb-3 text-muted"></i>
+            <a class="d-block" href="mailto:chantalh@kth.se">chantalh@kth.se</a>
           </div>
-        -->
-        <!-- <div class="col-lg-4 mr-auto text-center"> -->
-        <div align="center">
-          <i class="fas fa-envelope fa-3x mb-3 text-muted"></i>
-          <a class="d-block" href="mailto:chantalh@kth.se">chantalh@kth.se</a>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Footer -->
-  <footer class="bg-light py-5">
-    <div class="container">
-      <div class="small text-center text-muted"> <img class="w3-round" src="img/footer_wave4.jpg" width="100" height="100" alt="">  </div>
-    </div>
-  </footer>
+    <!-- Footer -->
+    <footer class="bg-light py-5">
+      <div class="container">
+        <div class="small text-center text-muted"> <img class="w3-round" src="img/footer_wave4.jpg" width="100" height="100" alt="">  </div>
+      </div>
+    </footer>
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-  <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-  <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
 
-  <!-- Custom scripts for this template -->
-  <script src="js/creative.min.js"></script>
+    <!-- Custom scripts for this template -->
+    <script src="js/creative.min.js"></script>
 
-</body>
+  </body>
 
-</html>
+  </html>
