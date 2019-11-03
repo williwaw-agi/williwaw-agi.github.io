@@ -10404,6 +10404,11 @@ button.bg-dark:focus {
   color: #fff !important;
 }
 
+.text-white-highlight {
+  color: #fff !important;
+  text-shadow: -0.8px -0.8px 0 #8b4513, 0.8px -0.8px 0 #8b4513, -0.8px 0.8px 0 #8b4513, 0.8px 0.8px 0 #8b4513;
+}
+
 .text-primary {
   color: #28A9DD !important;
 }
@@ -10706,7 +10711,7 @@ hr.light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 72px);
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(246, 177, 80, 0.8)), to(rgba(246, 177, 80, 0.8))), url("../img/bg-masthead.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(246, 177, 80, 0.8)), to(rgba(246, 177, 80, 0.8))), url("../img/bg-masthead2.jpg");
   background: linear-gradient(to bottom, rgba(246, 177, 80, 0.8) 0%, rgba(246, 177, 80, 0.8) 100%), url("../img/bg-masthead.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -10720,7 +10725,7 @@ header.masthead h1 {
 
 @media (min-width: 992px) {
   header.masthead {
-    height: 100vh;
+    height: 1130px;             /* Hard code that shit */
     min-height: 40rem;
     padding-top: 72px;
     padding-bottom: 0;
@@ -10854,17 +10859,9 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   margin: auto; max-width: 300px;
 }
 
-.showcase .showcase-text {
-  padding: 3rem;
-}
-
-.showcase .showcase-img {
-  min-height: 30rem;
-  background-size: cover;
-}
-
-@media (min-width: 768px) {
-  .showcase .showcase-text {
-    padding: 7rem;
-  }
+.brown-text-box {
+  padding-top: 30px;
+  padding-bottom: 10px;
+  background: rgba(139, 69, 19, 0.6);
+  width: 100%;
 }
